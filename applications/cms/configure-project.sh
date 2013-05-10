@@ -3,7 +3,7 @@
 
 cd ../..
 git submodule init --update --recursive
-cd applications/honeybee-core/honeybee
+cd applications/cms/honeybee
 git checkout master
 make install
 cd .. 
