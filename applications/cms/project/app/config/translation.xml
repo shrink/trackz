@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0" xmlns="http://agavi.org/agavi/config/parts/translation/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <ae:configuration>
+
+        <available_locales default_locale="de_DE">
+            <!-- German, Germany -->
+            <available_locale identifier="de_DE">
+                <ae:parameter name="description">Deutsch</ae:parameter>
+            </available_locale>
+        </available_locales>
+
+        <translators default_domain="modules.labels">
+            <translator domain="modules">
+                <message_translator class="AgaviSimpleTranslator">
+                     <ae:parameter name="labels">
+                        <ae:parameter name="de">
+                            <ae:parameter name="brand-name">TrackzMS</ae:parameter>
+                            <ae:parameter name="brand-title">TrackzMS - Track Mangement System</ae:parameter>
+                            <ae:parameter name="Track">Track</ae:parameter>
+                            <ae:parameter name="Artist">Interpret</ae:parameter>
+                            <ae:parameter name="Category">Kategorie</ae:parameter>
+                        </ae:parameter>
+                        <ae:parameter name="en">
+                            <ae:parameter name="Track">Tracks</ae:parameter>
+                            <ae:parameter name="Category">Categories</ae:parameter>
+                            <ae:parameter name="Artist">Artists</ae:parameter>
+                        </ae:parameter>
+                    </ae:parameter>
+                </message_translator>
+        </translator>
+    </translators>
+
+    </ae:configuration>
+</ae:configurations>

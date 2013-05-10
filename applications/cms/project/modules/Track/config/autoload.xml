@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations 
+    xmlns="http://agavi.org/agavi/config/parts/autoload/1.0" 
+    xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0">
+    <ae:configuration>
+
+        <!-- Agavi -->
+        <autoload name="TrackBaseAction">%core.module_dir%/Track/lib/agavi/action/TrackBaseAction.class.php</autoload>
+        <autoload name="TrackBaseView">%core.module_dir%/Track/lib/agavi/view/TrackBaseView.class.php</autoload>
+        <autoload name="TrackDocumentValidator">%core.module_dir%/Track/lib/agavi/validator/TrackDocumentValidator.class.php</autoload>
+        
+        <!-- Service -->
+        <autoload name="TrackService">%core.module_dir%/Track/lib/TrackService.class.php</autoload>
+    </ae:configuration>
+</ae:configurations>
